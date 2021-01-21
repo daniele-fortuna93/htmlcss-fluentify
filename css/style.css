@@ -102,7 +102,27 @@ nav{
   font-size: 13px;
 }
 /* /title */
-
+/* main */
+.main-title{
+  position: relative;
+  background-color: #D3D3D3;
+  height: 130px;
+}
+.box-main-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.box-main-title h3{
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.box-main-title p{
+  font-size: 12px;
+  color: #808080;
+}
 
 
 
