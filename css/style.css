@@ -4,3 +4,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/* intestazione */
+header{
+  background-color: #0C325A;
+}
+nav{
+  padding: 15px 0;
+  width: 80%;
+  margin: auto;
+  line-height: 70px;
+}
+ .logo, .main-nav, .access-point{
+  float: left;
+}
+/* logo */
+.logo{
+  width: 10%;
+}
+.logo img{
+  width: 100%;
+}
+/* /logo */
+/* nav */
+.main-nav{
+  width: 45%;
+  text-align: center;
+}
+ .main-nav li, .access-point li{
+  display: inline-block;
+  line-height: 15px;
+}
+.main-nav li a, .access-point li a{
+  margin-right: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.access-point{
+  width: 35%;
+  text-align: right;
+}
+/* button */
+.button{
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+#login{
+  padding: 8px 40px;
+}
+.button-green{
+  background-color: #7CBB02;
+  border: 1px solid rgba(0, 0, 0, 0.0);
+}
+/* /button */
+.jumbotron{
+  height: 300px;
+}
+/* /nav */
+/* /intestazione */
