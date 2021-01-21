@@ -22,7 +22,7 @@ nav{
   margin: auto;
   line-height: 70px;
 }
- .logo, .main-nav, .access-point{
+.logo, .main-nav, .access-point{
   float: left;
 }
 /* logo */
@@ -42,11 +42,11 @@ nav{
   display: inline-block;
   line-height: 15px;
 }
-.main-nav li a, .access-point li a{
+.main-nav li a, .access-point li a, .box-title a{
   margin-right: 25px;
   color: white;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 15px;
   text-transform: uppercase;
   display: inline-block;
@@ -60,6 +60,7 @@ nav{
   padding: 8px;
   border: 1px solid #fff;
   border-radius: 10px;
+  color: #fff;
 }
 #login{
   padding: 8px 40px;
@@ -69,8 +70,40 @@ nav{
   border: 1px solid rgba(0, 0, 0, 0.0);
 }
 /* /button */
-.jumbotron{
-  height: 300px;
-}
 /* /nav */
+.jumbotron{
+  height: 500px;
+  background-image: url('../img/background-header.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.box-jumbotron{
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+/* title */
+.box-title{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+}
+.box-title h1{
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.button-title{
+  padding: 15px 10px;
+  font-size: 13px;
+}
+/* /title */
+
+
+
+
 /* /intestazione */
