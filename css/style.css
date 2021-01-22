@@ -200,10 +200,12 @@ nav{
   font-weight: 500;
 }
 #select_level{
+  width: 22%;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   background-color: transparent;
   border: none;
+  border-bottom: 1px solid #808080;
   margin: 0 10px;
   color: #808080;
 }
