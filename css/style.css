@@ -7,6 +7,18 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+/* typography */
+h1{
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+p, .main-footer-select label{
+  font-size: 14px;
+  color: #808080;
+}
+/* /typography */
 /* mix */
 .clearfix::after{
   content: '';
@@ -33,7 +45,8 @@ header{
 }
 nav{
   padding: 15px 0;
-  line-height: 70px;}
+  line-height: 70px;
+}
 /* logo */
 .logo{
   width: 10%;
@@ -66,7 +79,7 @@ nav{
   width: 40%;
   text-align: right;
 }
-/* button */
+/* buttons */
 .button{
   padding: 8px;
   border-radius: 10px;
@@ -84,7 +97,7 @@ nav{
   padding: 15px 10px;
   border-radius: 5px;
 }
-/* /button */
+/* /buttons */
 /* /nav */
 .jumbotron{
   height: 500px;
@@ -104,12 +117,6 @@ nav{
   transform: translateY(-50%);
   width: 40%;
 }
-.box-title h1{
-  font-size: 40px;
-  color: #fff;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
 /* /title */
 /* /intestazione */
 
@@ -120,10 +127,6 @@ nav{
 .main-title h3{
   font-weight: 400;
   margin-bottom: 15px;
-}
-.main-title p, .column-main-box p, .main-footer-select label{
-  font-size: 12px;
-  color: #808080;
 }
 /* main box */
 .column-main-box{
@@ -177,10 +180,6 @@ nav{
   font-size: 25px;
   margin-bottom: 15px;
 }
-.column-main-test p{
-  font-size: 15px;
-  color: #808080;
-}
 .column-main-test a{
   display: inline-block;
   color: lightblue;
@@ -191,6 +190,7 @@ nav{
 .main-footer-title{
   width: 55%;
   padding: 20px 0;
+  line-height: 44px;
 }
 .main-footer-select{
   width: 45%;
