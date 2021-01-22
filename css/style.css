@@ -7,26 +7,33 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+/* mix */
 .clearfix::after{
   content: '';
   display: block;
   clear: both;
 }
+nav, .box-jumbotron, .main-test{
+  width: 80%;
+  margin: auto;
+}
+.logo, .main-nav, .access-point, .column-main-box, .column-main-test{
+  float: left;
+}
+section{
+  padding: 30px 0;
+}
+.section-grey{
+  background-color: #D3D3D3;
+}
+/* /mix */
 /* intestazione */
 header{
   background-color: #0C325A;
 }
 nav{
   padding: 15px 0;
-  line-height: 70px;
-}
-nav, .box-jumbotron, .main-test{
-  width: 80%;
-  margin: auto;
-}
-.logo, .main-nav, .access-point{
-  float: left;
-}
+  line-height: 70px;}
 /* logo */
 .logo{
   width: 10%;
@@ -40,13 +47,15 @@ nav, .box-jumbotron, .main-test{
   width: 50%;
   text-align: center;
 }
+.main-nav li:not(:last-child), .access-point li:not(:last-child){
+  margin-right: 25px;
+}
  .main-nav li, .access-point li{
   display: inline-block;
   line-height: 15px;
 }
 .main-nav li a, .access-point li a, .box-title a{
-  margin-right: 25px;
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;
@@ -78,7 +87,7 @@ nav, .box-jumbotron, .main-test{
   background-image: url('../img/background-header.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 106% 100%;
 }
 .box-jumbotron{
   position: relative;
@@ -106,23 +115,13 @@ nav, .box-jumbotron, .main-test{
 
 /* main */
 .main-title{
-  position: relative;
-  background-color: #D3D3D3;
-  height: 130px;
-  margin-bottom: 20px;
-}
-.box-main-title{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
-.box-main-title h3{
+.main-title h3{
   font-weight: 400;
   margin-bottom: 15px;
 }
-.box-main-title p, .column-main-box p{
+.main-title p, .column-main-box p{
   font-size: 12px;
   color: #808080;
 }
@@ -132,7 +131,6 @@ nav, .box-jumbotron, .main-test{
   margin: auto;
 }
 .column-main-box{
-  float: left;
   width: calc(100% / 3);
   text-align: center;
   padding: 20px;
@@ -167,10 +165,9 @@ nav, .box-jumbotron, .main-test{
 .column-main-test{
   padding: 30px;
   width: 50%;
-  float: left;
 }
 .column-right{
-  width: 30%;
+  width: 40%;
 }
 .column-main-test img{
   width: 100%;
