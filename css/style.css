@@ -13,11 +13,11 @@ body{
   display: block;
   clear: both;
 }
-nav, .box-jumbotron, .main-test, .main-box, .main-footer-container{
+.container{
   width: 80%;
   margin: auto;
 }
-.logo, .main-nav, .access-point, .column-main-box, .column-main-test, .main-footer-title, .main-footer-select{
+.float-l{
   float: left;
 }
 section{
